@@ -1,0 +1,1 @@
+<?php require_once 'functions.php'; ?><html>	<head>		<?php include 'header.php' ?>	</head>	<body>		<h1>the dog movement</h1>		<div>			<a href="index.php"><div class="button">home</div></a>		</div>		<div>			<h3 style="margin-top: 10px;">All films shown</h3>			<?php echo make_films_table()			?>		</div>	</body></html>
